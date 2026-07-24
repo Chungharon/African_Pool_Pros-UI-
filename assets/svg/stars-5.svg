@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Star Rating Component - 5 Stars -->
+  <defs>
+    <filter id="starGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- 5 Gold Stars -->
+  <text x="12" y="30" font-family="Arial, sans-serif" font-size="28" fill="#F2B705" filter="url(#starGlow)">★</text>
+  <text x="44" y="30" font-family="Arial, sans-serif" font-size="28" fill="#F2B705" filter="url(#starGlow)">★</text>
+  <text x="76" y="30" font-family="Arial, sans-serif" font-size="28" fill="#F2B705" filter="url(#starGlow)">★</text>
+  <text x="108" y="30" font-family="Arial, sans-serif" font-size="28" fill="#F2B705" filter="url(#starGlow)">★</text>
+  <text x="140" y="30" font-family="Arial, sans-serif" font-size="28" fill="#F2B705" filter="url(#starGlow)">★</text>
+</svg>

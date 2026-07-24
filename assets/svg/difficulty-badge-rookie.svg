@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280" height="40" viewBox="0 0 280 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Difficulty Badge - Master Level (Green) -->
+  <defs>
+    <filter id="diffGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Rookie Green -->
+  <rect x="0" y="0" width="280" height="40" rx="10" fill="#0a0e27" stroke="#00AA44" stroke-width="2" filter="url(#diffGlow)"/>
+  <text x="140" y="27" font-family="Montserrat, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">ROOKIE LEVEL</text>
+</svg>
