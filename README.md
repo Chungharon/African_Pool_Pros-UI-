@@ -89,5 +89,9 @@ Examples:
 ## Licensing & Attribution
 List any 3rd-party fonts, icons, or paid assets included and their licenses in the final deliverable.
 
+## Preview — Clubs Screen
+
+![Clubs screen](assets/images/clubs_screen.png)
+
 ---
 Any edits or additions requested by the developer/designer should be added to this README and the Figma file before final handoff.
